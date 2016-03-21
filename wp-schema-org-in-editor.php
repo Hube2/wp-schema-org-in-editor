@@ -236,7 +236,6 @@
 			foreach ($tags as $tag) {
 				if (strpos($tag, '[') === false) {
 					$elements[trim($tag)] = array();
-					continue;
 				} else {
 					$attributes = explode('[', trim($tag, ']'));
 					$element = trim(array_shift($attributes));
