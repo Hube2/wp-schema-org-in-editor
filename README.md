@@ -93,5 +93,5 @@ Allow Schema Markup in WordPress Content Editor
   * content
 * video
   * itemprop
-  * content' => true,
+  * content
 
