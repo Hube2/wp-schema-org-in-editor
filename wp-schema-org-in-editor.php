@@ -152,6 +152,7 @@
 			global $allowedposttags;
 			$allowedposttags = $this->merge_elements($allowedposttags, $this->extended_elements);
 			//echo '<pre>'; print_r($allowedposttags); die;
+			/*
 			foreach ($this->extended_elements as $element => $attributes) {
 				if (isset($allowedposttags[$element]) && is_array($allowedposttags[$element])) {
 					array_merge($allowedposttags[$element], $attributes);
@@ -159,6 +160,7 @@
 					$allowedposttags[$element] = $attributes;
 				}
 			}
+			*/
 		} // end public function init
 		
 		public function tiny_mce_before_init($mce, $editor_id) {
