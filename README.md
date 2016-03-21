@@ -38,8 +38,8 @@ elements.
   * itemscope
   * itemtype
   * itemprop
-  * datetime
   * content
+  * datetime
 * dt
   * itemprop
   * content
@@ -75,24 +75,24 @@ elements.
 * link
   * itemprop
   * href
-  * datetime
   * content
+  * datetime
 * meta
   * itemprop
-  * datetime
   * content
+  * datetime
 * p
   * itemprop
-  * datetime
   * content
+  * datetime
 * span
   * itemprop
-  * datetime
   * content
+  * datetime
 * time
   * itemprop
-  * datetime
   * content
+  * datetime
 * track
   * itemprop
   * content
