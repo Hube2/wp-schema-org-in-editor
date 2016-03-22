@@ -100,21 +100,7 @@ the editor needs to be familiar with <a href="http://schema.org/" target="_blank
 * track
   * itemprop
   * content
-* 
-  * 
-  * 
+* video
+  * itemprop
+  * content
 
-| Element       | Attributes Allowed    |
-| ------------- |:---------------------:|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-| video | itemprop | content|
