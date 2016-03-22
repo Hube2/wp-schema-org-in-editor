@@ -104,3 +104,8 @@ the editor needs to be familiar with <a href="http://schema.org/" target="_blank
   * itemprop
   * content
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
