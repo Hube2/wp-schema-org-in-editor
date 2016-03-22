@@ -5,6 +5,8 @@ Modifies allowed elements in WordPress and TinyMCE to allow the schema.org attri
 added with the `itemscope` and `itemtype` attribute and the other attributes can be added to may types of
 elements.
 
+This plugin does not add any controls or change the editor automatically insert elements or attributes. The editor must edit the document in "Text" (code) view and manually add the desired markup to the document. the editor needs to be familiar with <a href="http://schema.org/" target="_blank">http://schema.org/</a>.
+
 ## List of Elements and Attibutes Allowed
 
 * a
