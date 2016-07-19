@@ -1,10 +1,14 @@
-# Schema.Org Markup it WP Editor
-Allow Schema Markup in WordPress Content Editor
+# Allow Schema.Org Markup in WordPress (WP) Content Editor
 
 Modifies allowed elements in WordPress and TinyMCE to allow the schema.org attributes `itemscope`, `itemtype`,
-`itemprop`, `content` and `datetime` in HTML elements. Also allows the `div` HTML element. Div elements can be
+`itemprop`, `content` and `datetime` in HTML elements. Also allows the `div` HTML element. 'div' elements can be
 added with the `itemscope` and `itemtype` attribute and the other attributes can be added to may types of
 elements.
+
+This plugin does not add any controls or change the editor to allow automatic insertion of elements or
+attributes. The editor must edit the document in "Text" (code) view and manually add the desired markup
+to the document.
+the editor needs to be familiar with <a href="http://schema.org/" target="_blank">http://schema.org/</a>.
 
 ## List of Elements and Attibutes Allowed
 
