@@ -149,8 +149,9 @@
 		} // end public function __construct
 		
 		public function init() {
-			global $allowedposttags;
+			global $allowedposttags, $allowedtags;
 			$allowedposttags = $this->merge_elements($allowedposttags, $this->extended_elements);
+			$allowedtags = $this->merge_elements($allowedtags, $this->extended_elements);
 			//echo '<pre>'; print_r($allowedposttags); die;
 			/*
 			foreach ($this->extended_elements as $element => $attributes) {
@@ -164,7 +165,7 @@
 		} // end public function init
 		
 		public function tiny_mce_before_init($mce, $editor_id) {
-			global $allowedposttags;
+			global $allowedposttags, $allowedtags;
 			$extended_elements = array();
 			if (isset($mce['extended_valid_elements'])) {
 				$extended_elements = $this->extract_elements($mce['extended_valid_elements']);
@@ -173,6 +174,7 @@
 			$extended_elements = $this->merge_extended_elements($extended_elements, $allowedposttags);
 			$extended_elements = $this->format_elements($extended_elements);
 			$mce['extended_valid_elements'] = $extended_elements;
+			$mce['valid_children'] = '+body[meta],+div[meta]';
 			return $mce;
 		} // end public function tiny_mce_before_init
 		
